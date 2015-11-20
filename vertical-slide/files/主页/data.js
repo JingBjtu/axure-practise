@@ -1,6 +1,6 @@
 ﻿$axure.loadCurrentPage({
   "url":"主页.html",
-  "generationDate":new Date(1448001244724.01),
+  "generationDate":new Date(1448010404939.78),
   "isCanvasEnabled":false,
   "variables":["OnLoadVariable"],
   "page":{
@@ -169,7 +169,27 @@
                                       "stos":[]},
                                     "options":{
                                       "easing":"easeOutElastic",
-                                      "duration":500}}}]}]}]}},
+                                      "duration":500}}}]}]}]},
+                    "onLoad":{
+                      "description":"OnLoad",
+                      "cases":[{
+                          "description":"用例 1",
+                          "isNewIfGroup":false,
+                          "actions":[{
+                              "action":"wait",
+                              "description":"等待3000毫秒",
+                              "waitTime":3000},
+{
+                              "action":"fadeWidget",
+                              "description":"隐藏 splashingImage 淡入淡出 1000 毫秒",
+                              "objectsToFades":[{
+                                  "objectPath":["4e1d4b6adb4f4621bf7e8e1d6912702f"],
+                                  "fadeInfo":{
+                                    "fadeType":"hide",
+                                    "options":{
+                                      "easing":"fade",
+                                      "duration":1000,
+                                      "showType":"none"}}}]}]}]}},
                   "scrollbars":"none",
                   "fitToContent":false,
                   "propagate":false,
@@ -2909,7 +2929,59 @@
                       "adaptiveStyles":{
 }}],
                   "images":{
-                    "normal~":"images/主页/rectmenuwechat_u128.png"}}],
+                    "normal~":"images/主页/rectmenuwechat_u128.png"}},
+{
+                  "id":"4e1d4b6adb4f4621bf7e8e1d6912702f",
+                  "label":"splashingImage",
+                  "parentDynamicPanel":"ce9518bf79414d3299e5f159f7324e72",
+                  "panelIndex":0,
+                  "type":"imageBox",
+                  "styleType":"imageBox",
+                  "visible":true,
+                  "style":{
+                    "size":{
+                      "width":320,
+                      "height":568}},
+                  "adaptiveStyles":{
+},
+                  "objects":[{
+                      "id":"f854d90a1f684b9fbf21c949acdfabda",
+                      "label":"",
+                      "isContained":true,
+                      "parentDynamicPanel":"ce9518bf79414d3299e5f159f7324e72",
+                      "panelIndex":0,
+                      "type":"richTextPanel",
+                      "styleType":"paragraph",
+                      "visible":true,
+                      "style":{
+                        "size":{
+                          "width":320,
+                          "height":568}},
+                      "adaptiveStyles":{
+}}],
+                  "interactionMap":{
+                    "onShow":{
+                      "description":"OnShow",
+                      "cases":[{
+                          "description":"用例 1",
+                          "isNewIfGroup":false,
+                          "actions":[{
+                              "action":"wait",
+                              "description":"等待3000毫秒",
+                              "waitTime":3000},
+{
+                              "action":"fadeWidget",
+                              "description":"隐藏 splashingImage 淡入淡出 1000 毫秒",
+                              "objectsToFades":[{
+                                  "objectPath":["4e1d4b6adb4f4621bf7e8e1d6912702f"],
+                                  "fadeInfo":{
+                                    "fadeType":"hide",
+                                    "options":{
+                                      "easing":"fade",
+                                      "duration":1000,
+                                      "showType":"none"}}}]}]}]}},
+                  "images":{
+                    "normal~":"images/主页/splashingimage_u136.PNG"}}],
               "style":{
                 "fill":{
                   "fillType":"solid",
@@ -3194,4 +3266,8 @@
     "830365f2d3ca42eba297308aff1b329b":{
       "scriptId":"u134"},
     "dd78cd2e0ca14f1cb3e78a661c520ac5":{
-      "scriptId":"u135"}}});
+      "scriptId":"u135"},
+    "4e1d4b6adb4f4621bf7e8e1d6912702f":{
+      "scriptId":"u136"},
+    "f854d90a1f684b9fbf21c949acdfabda":{
+      "scriptId":"u137"}}});
